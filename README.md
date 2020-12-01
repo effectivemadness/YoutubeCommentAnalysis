@@ -20,6 +20,12 @@ crawling all comments from a specific youtube video, and analysis for
 
 1. crawling comments from specific youtube video with `selenium` from  `python`
 
+2. preprocess data
+
+  - 채팅체 교정 with [`ko-Chat-checker`](https://github.com/seoyoungh/ko-chat-checker)
+
+      - 유투브 댓글은 그 특성상 채팅체로 쓰여져 있는 경우가 많음. 이를 분석 가능한 단어로 교정해주기 위한 모듈 이용
+
 2. sentimental analysis for each comments
 
 3. draw wordCloud for total Comments
