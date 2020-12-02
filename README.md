@@ -18,6 +18,10 @@ crawling all comments from a specific youtube video, and analysis for
 
 ## workflow
 
+
+![flowchart](https://github.com/midannii/YoutubeCommentAnalysis/blob/main/files/workflow.png){: width="500" height="300"}
+
+
 1. crawling comments from specific youtube video with `selenium` from  `python`
 
 2. preprocess data
@@ -39,7 +43,7 @@ crawling all comments from a specific youtube video, and analysis for
        - 기존 감정 분석에서 조금 더 응용하여, 댓글의 `Liked`에 아래와 같이 자체적으로 weight를 주었습니다.
 
       ```
-      좋아요 7개 받은 댓글 == 8명의 사람들이 작성한 댓글 
+      좋아요 7개 받은 댓글 == 8명의 사람들이 작성한 댓글
       ```
 
   - Ko ) [DNN 모델 학습](https://nbviewer.jupyter.org/github/cyc1am3n/Deep-Learning-with-Python/blob/master/Chap03-getting_started_with_neural_networks/Chap03-Extra-classifying_korean_movie_review.ipynb)
