@@ -22,16 +22,33 @@ crawling all comments from a specific youtube video, and analysis for
 
 2. preprocess data
 
-  - 채팅체 교정 with [`ko-Chat-checker`](https://github.com/seoyoungh/ko-chat-checker)
+  - Ko
 
-      - 유투브 댓글은 그 특성상 채팅체로 쓰여져 있는 경우가 많음. 이를 분석 가능한 단어로 교정해주기 위한 모듈 이용
+    - 오타, 맞춤법 교정 with  [`py-hanspell`](https://github.com/ssut/py-hanspell)
+
+    - 띄어쓰기
+
+    - 문장부호제거, 이모티콘 및 이모지 제거
+
+  - Eng
+
+    - 이모티콘, 문장부호 제거
 
 3. sentimental analysis for each comments
 
-4. draw wordCloud for total Comments
+       - 기존 감정 분석에서 조금 더 응용하여, 댓글의 `Liked`에 아래와 같이 자체적으로 weight를 주었습니다.
 
-5. show 10 most liked Comments
+      ```
+      좋아요 7개 받은 댓글 == 8명의 사람들이 작성한 댓글 
+      ```
 
+  - Ko ) [DNN 모델 학습](https://nbviewer.jupyter.org/github/cyc1am3n/Deep-Learning-with-Python/blob/master/Chap03-getting_started_with_neural_networks/Chap03-Extra-classifying_korean_movie_review.ipynb)
+
+  - Eng ) [VADER](https://github.com/cjhutto/vaderSentiment)이용
+
+4. show 10 most liked Comments
+
+5. draw wordCloud for total Comments
 
 
 -------------------------------------
