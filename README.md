@@ -19,7 +19,7 @@ crawling all comments from a specific youtube video, and analysis for
 ## workflow
 
 
-![flowchart](https://github.com/midannii/YoutubeCommentAnalysis/blob/main/files/workflow.png){: width="500" height="300"}
+![flowchart](https://github.com/midannii/YoutubeCommentAnalysis/blob/main/files/workflow.png)
 
 
 1. crawling comments from specific youtube video with `selenium` from  `python`
