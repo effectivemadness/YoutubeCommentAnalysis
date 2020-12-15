@@ -24,6 +24,8 @@ crawling all comments from a specific youtube video, and analysis for
 
 1. crawling comments from specific youtube video with `selenium` from  `python`
 
+  - reuse [Youtube_Comment_Crawler](https://github.com/SOMJANG/Youtube_Comment_Crawler), edit for MacOS
+
 2. preprocess data
 
   - Ko
